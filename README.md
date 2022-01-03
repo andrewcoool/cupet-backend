@@ -23,7 +23,7 @@ contact information on each other’s profiles.
 
 ## Developer Notes & Instructions
 
-This repository contains the backend only. The HTTP request endpoints and the command line allow you to interact with the server in lieu of a front end application. To access the repository for the frontend part of the project (Android app), go to https://github.com/CSC207-UofT/cupet-frontend.
+This repository contains the backend only. The HTTP request endpoints and the command line allow you to interact with the server in lieu of a front end application. To access the repository for the frontend part of the project (Android app), go to https://github.com/andrewcoool/cupet-frontend.
 
 ### API Documentation
 
