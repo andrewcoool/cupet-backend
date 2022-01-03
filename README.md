@@ -25,9 +25,9 @@ contact information on each other’s profiles.
 
 This repository contains the backend only. The HTTP request endpoints and the command line allow you to interact with the server in lieu of a front end application. To access the repository for the frontend part of the project (Android app), go to https://github.com/CSC207-UofT/cupet-frontend.
 
-# API Documentation
+### API Documentation
 
-## Login/Generate Session Token
+### Login/Generate Session Token
 - **URL**:
 
 /auth/login
@@ -59,7 +59,7 @@ POST
 
 
 
-## Create User
+### Create User
 - **URL**:
 
 /users/create
@@ -100,7 +100,7 @@ POST
 
 
 
-## Fetch User Account
+### Fetch User Account
 - **URL**:
 
 /users/account?userId=[userId]
@@ -132,7 +132,7 @@ N/A
 }`
   
 
-## Edit User Profile
+### Edit User Profile
 - **URL**:
 
 /users/editprofile
@@ -169,7 +169,7 @@ Yes, requires header key-value pair: `Authorization: Bearer <JWT Token>`
   }
 }`
 
-## Edit User Account
+### Edit User Account
 - **URL**:
 
 /users/editaccount
@@ -210,7 +210,7 @@ Yes, requires header key-value pair: `Authorization: Bearer <JWT Token>`
 }`
 
 
-## Fetch User Profile
+### Fetch User Profile
 - **URL**:
 
 /users/profile?userId=[userId]
@@ -244,7 +244,7 @@ N/A
 }`
 
 
-## Create Pet
+### Create Pet
 - **URL**:
 
 /pets/create
@@ -283,7 +283,7 @@ POST
 }`
 
 
-## Fetch Pet Profile
+### Fetch Pet Profile
 - **URL**:
 
 /pets/profile?petId=[petId]
@@ -315,7 +315,7 @@ N/A
 }`
 
 
-## Edit Pet Profile
+### Edit Pet Profile
 - **URL**:
 
 /pets/editprofile
@@ -354,7 +354,7 @@ POST
 }`
 
 
-## Swipe Pets
+### Swipe Pets
 - **URL**:
 
 /pets/swipe
@@ -382,7 +382,7 @@ POST
 }`
 
 
-## Unswipe Pets
+### Unswipe Pets
 - **URL**:
 
 /pets/unswipe
@@ -410,7 +410,7 @@ POST
 }`
 
 
-## Reject Pets
+### Reject Pets
 - **URL**:
 
 /pets/reject
@@ -439,7 +439,7 @@ POST
 
 
 
-## Unmatch Pets
+### Unmatch Pets
 - **URL**:
 
 /pets/unmatch
@@ -467,7 +467,7 @@ POST
 }`
 
 
-## Fetch Pet Swipes
+### Fetch Pet Swipes
 - **URL**:
 
 /pets/fetchswipes?petId=[petId]
@@ -494,7 +494,7 @@ N/A
 }`
 
 
-## Fetch Pet Matches
+### Fetch Pet Matches
 - **URL**:
 
 /pets/fetchmatches?petId=[petId]
@@ -521,7 +521,7 @@ N/A
 }`
 
 
-## Fetch User's Pets
+### Fetch User's Pets
 - **URL**:
 
 /users/fetchpets?userId=[userId]
@@ -548,7 +548,7 @@ N/A
 }`
 
 
-## Generate Potential Pet Matches
+### Generate Potential Pet Matches
 - **URL**:
 
 /pets/generatepotentialmatches?petId=[petId]
@@ -575,7 +575,7 @@ N/A
 }`
 
 
-## Set User Profile Image
+### Set User Profile Image
 - **URL**:
 
 /users/setprofileimage
@@ -609,7 +609,7 @@ POST
 `
 
 
-## Set Pet Profile Image
+### Set Pet Profile Image
 - **URL**:
 
 /pets/setprofileimage
